@@ -1,9 +1,15 @@
-"""This program takes a matrix of size mxn as input, and prints the matrix in a spiral format
-for example: input ->> [[1,2,3],
-                        [4,5,6],
-                        [7,8,9],
-                        [10,11,12]]
-             output ->> 1 2 3 6 9 12 11 10 7 4 5 8"""
+"""This program takes a matrix of size mxn as input, and prints the matrix in a spiral format.
+for example: 
+input ->> 
+matrix = [
+    [6, 9, 8],
+    [1, 8, 0],
+    [5, 1, 2],
+    [8, 0, 3],
+    [1, 6, 4],
+    [8, 8, 10]
+]
+output ->> [6, 9, 8, 0, 2, 3, 4, 10, 8, 8, 1, 8, 5, 1, 8, 1, 0, 6]"""
 
 
 class Solution:
